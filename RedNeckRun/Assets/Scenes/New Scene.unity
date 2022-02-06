@@ -448,7 +448,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 10
-  sidewaysMove: 1
+  sidewaysMove: 4
 --- !u!54 &1811589844
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -561,4 +561,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b763a8f8602a25a40b807c1e05007184, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distanceFromPlayer: 3.5
+  positionOffSet: {x: 0, y: 2, z: -3.5}
+  cameraSpeed: 10
