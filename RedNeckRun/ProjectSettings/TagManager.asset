@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Gate_Hipster
+  - Gate_Redneck
+  - Collectable_Coffee
+  - Collectable_Horseshoe
+  - Manager
+  - Player_Character
+  - Player_Bar
+  - Player_Redneck
+  - Player_Hispter
+  - Player_Initial
   layers:
   - Default
   - TransparentFX

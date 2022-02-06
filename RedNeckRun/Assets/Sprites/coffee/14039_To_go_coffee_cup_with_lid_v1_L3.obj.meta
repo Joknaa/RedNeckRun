@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: c3f88f86b12bd3745b5cdc110fc6aecd
+guid: 01ca80da450ffa943ae02598f5b0632c
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Border
-    second: {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  externalObjects: {}
   materials:
     materialImportMode: 1
     materialName: 0
