@@ -1,0 +1,24 @@
+Hello,
+
+You need to recreate a 1 level game like the one shown in the video(please find the attached
+link).
+
+Game Flow/ theme :- 
+1. Level starts, you can move your character from left to right. Character automatically walks forward on
+a straight path.
+2. The goal is to collect different type of pickable objects and convert your form to better suit the selected identity.
+3. In the beginning of level, there will be 2 gate one for redneck and one for the hipster, and player can
+select according to his choice.
+4. There will be few collectable objects on the way, few for redneck and few for hipster, if
+player selects the right pickable, it will increase he character bar and once full it will change the character,
+if you pick the wrong pickable, the bar can decrease and the character can downgrade as well.
+5. Apart from collectable objects, there will be few gates on the way with different available options like
+(flower or Rifle, sports car or pickup truck, Apple Watch or antique wrist watch etc.), if player selects the
+correct gate according to the selected theme he will get few points or if player selects the wrong gate he
+will loses some points.
+6. Also, there will be a bar on top of the character that will reflect points, Once the bar is completely filled
+the character will upgrade according to the selected theme (Redneck or hipster) or the character will
+downgrade once the bar is completely empty.
+
+You can find all the necessary assets in the attached link.
+Here is the Link : https://drive.google.com/drive/folders/1lr9IqOF0v6YE5D0IG18vBEvaxE9213RU?usp=sharing
