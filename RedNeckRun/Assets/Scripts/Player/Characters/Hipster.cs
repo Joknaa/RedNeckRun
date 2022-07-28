@@ -10,7 +10,7 @@ namespace Player.Characters {
             return allowedCollectibles.Contains(interactable) ? 1 : -1;
         }
 
-        public void UpgradeSkin(SkinsController _skinsController) {
+        public void ChangeSkin(SkinsController _skinsController) {
             _skinsController.SetHipsterSkin();
         }
     }

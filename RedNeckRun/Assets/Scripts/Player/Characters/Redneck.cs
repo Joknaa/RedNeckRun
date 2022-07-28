@@ -11,7 +11,7 @@ namespace Player.Characters {
 
         }
 
-        public void UpgradeSkin(SkinsController _skinsController) {
+        public void ChangeSkin(SkinsController _skinsController) {
             _skinsController.SetRedneckSkin();
 
         }

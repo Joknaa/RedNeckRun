@@ -2,7 +2,7 @@
     public interface ICharacters {
 
         int UpdateExperience(string interactable);
-        void UpgradeSkin(SkinsController _skinsController);
+        void ChangeSkin(SkinsController _skinsController);
         
     }
 }

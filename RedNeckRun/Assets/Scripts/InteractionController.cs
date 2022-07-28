@@ -21,11 +21,11 @@ public class InteractionController : MonoBehaviour {
         switch (other.tag) {
             case GATE_HIPSTER_TAG:
                 selectedCharacter = new Hipster();
-                selectedCharacter.UpgradeSkin(_skinsController);
+                selectedCharacter.ChangeSkin(_skinsController);
                 break;
             case GATE_REDNECK_TAG:
                 selectedCharacter = new Redneck();
-                selectedCharacter.UpgradeSkin(_skinsController);
+                selectedCharacter.ChangeSkin(_skinsController);
                 break;
             case COLLECTABLE_COFFEE_TAG:
                 _experienceController.CollectedCoffee(selectedCharacter);

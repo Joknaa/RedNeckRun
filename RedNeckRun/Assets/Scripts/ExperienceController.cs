@@ -20,7 +20,7 @@ public class ExperienceController : MonoBehaviour {
         ExpPoints += sign * ExpGain;
         UpdateExpLevel(selectedCharacter);
     }
-    
+
     public void CollectedCoffee(ICharacters selectedCharacter) {
         int sign = selectedCharacter.UpdateExperience("Coffee");
         ExpPoints += sign * ExpGain;
@@ -28,16 +28,19 @@ public class ExperienceController : MonoBehaviour {
     }
 
     private void UpdateExpLevel(ICharacters selectedCharacter) {
-        _uiController.UpdatePlayerScoreUI(ExpPoints);
         if (ExpPoints >= 100) {
             ExpLevel++;
             ExpPoints = 0;
-            selectedCharacter.UpgradeSkin(_skinsController);
-        } else if (ExpPoints < 0) {
+            
+            selectedCharacter.ChangeSkin(_skinsController);
+        }
+        else if (ExpPoints <= 0) {
             ExpLevel--;
             ExpPoints = 0;
-            selectedCharacter.UpgradeSkin(_skinsController);
+            selectedCharacter.ChangeSkin(_skinsController);
         }
+
+        _uiController.UpdatePlayerScoreUI(ExpPoints);
         Debug.Log("Level: " + ExpLevel + "( " + ExpPoints + "/100 )");
     }
 }
